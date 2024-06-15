@@ -1,0 +1,22 @@
+.flex-container{
+  border: solid red;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  
+}
+.container-item{
+    width: 80px;
+    height: 80px;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
