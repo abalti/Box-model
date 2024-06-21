@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    padding: 10px;
+    margin: 50px;
+    background-color:#cacaca;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.items{
+    background-color: #EE4E4E;
+    color: #fff;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    flex-grow: 1;
+}
+.items-1{
+   
+}
+.items-2{
+}
+.items-3{
+    
+}
+.items-4{ 
+   
+}
+.items-5{ 
+ 
+}
+.items-10 items{
+    flex:1;
+
+}
