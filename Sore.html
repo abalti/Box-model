@@ -11,12 +11,13 @@
 
 /* Style the body */
 body {
-  font-family: Arial;
+  
   margin: 0;
 }
-.header {
+.header-container{
   padding: 30px;
-  text-align: center;
+  color: white;;
+  
   background: black;
 }
 /* Column container */
@@ -28,33 +29,40 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 10%;
-  background-color:white;
-  
-  height: 1400px;
+  flex: 15%;
+  background-color:#F7F9F2;
+    height:1400px;
 }
 .main {
-  flex: 90%;
+  flex: 85%;
+ border:#F7F9F2 3px solid;
+ background-color: #EEEDED;
   
-  background-color:#F6995C;
+  
 }
 .main-container{
-    background-color: blueviolet;
+    background-color:#BEAEE2;
+    width: 1490px;
+    height: 900px;
     padding: 100px;
     display: flex;
     justify-content: center;
-    width: 600px;
-    height: 400px;
-    flex-direction: column;
-  justify-content: center;
+    margin-top: 200px;
+    margin-left: 120px;
+  
+  
     
 }
 .items-container{
-    background-color: antiquewhite;
-    width:300px;
-    height: 150px;
-    
+    background-color: #EEEDED;
+    display:flex;
+    justify-content: space-around;
+    width:1380px;
+    height: 680px;
+    margin-right: 5px;
     flex-direction: center;
+    border-radius: 30px;
+    padding-top: 30px;
 }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
@@ -65,7 +73,10 @@ body {
 </style>
 </head>
 <body>
-<div class="header">
+  <script src="https://kit.fontawesome.com/dc977682d8.js" crossorigin="anonymous"></script>
+<div class="header-container">
+  <div>Educational website template</div>
+  <div><i class="fa-regular fa-hand"></i></div>
   
 </div>
 
@@ -75,8 +86,16 @@ body {
   <div class="main">
     <div class="main-container">
         <div class="items-container">
-           
+          <div class="nav">Medical</div>
+        <div class="nav">Home</div>
+        <div class="nav">about Us</div>
+        <div class="nav">Pages</div>
+        <div class="nav">Services</div>
+        <div class="nav">Courses</div>
+        <div class="nav">Blogs</div>
+        <div class="nav">Register</div>
         </div>
+        
     </div>
   </div>
 </div>
