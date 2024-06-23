@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .Container{
+        width: 900px;
+        height: 600px;
+        margin:0 auto; 
+      } 
+      .top-section{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+      } 
+      .form-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f5f8fa;
+        border: solid #d8dee3 1px;
+        width: 300px;
+        padding: 20px;
+        margin: 0 auto;
+        border-radius: 5px;
+        gap: 10px;
+      }
+      .input-container{
+        width: 95%;
+        height: 25px;
+        border-radius: 6px;
+      }
+      .button-container{
+        width: 95%;
+        margin: 5px;
+        height: 30px;
+        background-color: green;
+        color: white;
+        border-radius: 6px;
+      }
+      .bottom-section{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color:#FFFFFF;
+      border: lightgray 1px solid;
+      border-radius: 6px;
+      width: 300px;
+      margin-top: 20px;
+      padding: 20px;
+     ;
+      }
+      .footer{
+        display: flex;
+        justify-content:space-around; 
+        align-items: flex-end;
+        height: 80px;
+      }
+      a{
+        color:black;
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+
+    </style>
+    <script src="https://kit.fontawesome.com/dc977682d8.js" crossorigin="anonymous"></script>
+</head>
+<div class="Container">
+    <div class="top-section">    
+    <div style="font-size: 50px"><i class="fa-brands fa-github"></i></div>
+    <div style="font: size 1.5rem">Sign into Github</div>
+    <form class="form-container">
+        <label for="username">Username or email address</label>
+        <input class="input-container" type="text" name="username"/>
+        <label for="password">password</label>
+        <input class="input-container"  type="text" name="password"/>
+        <button class="button-container" type="submit">Sign in</button>
+    </form>
+    <div class="bottom-section">
+        <a href="url">Sign in with a passkey</a>
+        <a href="url">New to GitHub? Create an account</a>
+    </div>
+</div>
+<div class="footer">
+    <a href="url">Terms</a>
+    <a href="url">Privacy</a>
+    <a href="url">Docs</a>
+    <a href="url">Contact GitHub Support</a>
+    <a href="url">Manage cookies</a>
+    <a href="url">Do not share my personal information</a>
+   
+</div>
+</div>
+
+<body>
+    
+</body>
+</html>
